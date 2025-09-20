@@ -60,20 +60,20 @@ export default function StrokeCenter() {
             <TopRightMenu showLoginButton={false} />
 
             {/* 제목 및 설명 */}
-            <div className="text-center mt-4">
-                <h1 className="text-7xl font-bold text-blue-600 mt-10 mb-8">주변 뇌졸중 센터</h1>
+            <div className="text-center mt-14">
+                <h1 className="text-7xl font-bold text-blue-600 mt-10 mb-10">주변 뇌졸중 센터</h1>
                 <p className="inline-block bg-gray-100 px-12 py-1.5 text-[1.6rem] rounded-full text-black">
                     현재 위치를 기반으로 가까운 센터를 추천합니다.
                 </p>
             </div>
 
             {/* 현재 위치 */}
-            {location?.address && (
+            {/* {location?.address && (
                 <div className="mt-8 text-center flex items-center justify-center text-gray-700 gap-2">
                     <MapPinHouse className="w-7 h-7 text-black" />
                     <span className="underline text-black text-2xl">{location.address}</span>
                 </div>
-            )}
+            )} */}
 
             {/* 병원 리스트 */}
             <div className="mt-14 ml-24 mr-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-8">
